@@ -43,7 +43,6 @@ var AccountMain = React.createClass({
                 <form onSubmit={this.handleSubmit}>
                     <label>
                         <input type="text" defaultValue={this.state.name} onChange={this.handleNameChange}/>
-
                     </label>
                     <input type="submit" value="Create Account" />
                 </form>
